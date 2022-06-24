@@ -1,0 +1,14 @@
+# crystal structure
+FCC
+# elements
+N Ti
+# thickness
+2e-6
+# c - type
+BOLTZMANN
+# param
+0.95743 -0.02031 1.54092e-6 1.81375e-7
+# steps
+10000
+# GIXRD angles
+3 5 6 7 10 15

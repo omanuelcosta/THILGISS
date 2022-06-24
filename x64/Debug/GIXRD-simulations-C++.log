@@ -1,0 +1,2 @@
+﻿  main.cpp
+C:\Users\User\Desktop\Production\Academic\Artigo 3 - Thin Film\Dados\GIXRD-simulations-C++\main.cpp(9,10): fatal error C1083: Não é possível abrir arquivo incluir: 'boost/filesystem.hpp': No such file or directory

@@ -1,0 +1,68 @@
+﻿  main.cpp
+C:\Users\User\Desktop\Production\Academic\Artigo 3 - Thin Film\Dados\GIXRD-simulations-C++\functions.h(34,20): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\User\Desktop\Production\Academic\Artigo 3 - Thin Film\Dados\GIXRD-simulations-C++\classes.h(102,17): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\User\Desktop\Production\Academic\Artigo 3 - Thin Film\Dados\GIXRD-simulations-C++\classes.h(117,17): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\User\Desktop\Production\Academic\Artigo 3 - Thin Film\Dados\GIXRD-simulations-C++\classes.h(137,12): warning C4244: '=': conversão de 'const double' para 'int', possível perda de dados
+C:\Users\User\Desktop\Production\Academic\Artigo 3 - Thin Film\Dados\GIXRD-simulations-C++\classes.h(145,17): warning C4018: '<': incompatibilidade de signed/unsigned
+  Unknown compiler version - please run the configure tests and report the results
+C:\Program Files\boost_1_59_0\boost\iterator.hpp(16,12): error C4996: 'std::iterator': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+C:\Program Files\boost_1_59_0\boost\smart_ptr\detail\shared_count.hpp(396,33): error C2039: ' auto_ptr': não é um membro de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\locale(25): message : consulte a declaração de 'std'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\detail\shared_count.hpp(396,5): error C2061: erro de sintaxe: identificador 'auto_ptr'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\detail\shared_count.hpp(396,83): error C3861: 'r': identificador não encontrado
+C:\Program Files\boost_1_59_0\boost\smart_ptr\detail\shared_count.hpp(396,83): message : Este diagnóstico ocorreu na função gerada pelo compilador 'boost::detail::shared_count::shared_count(void)'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\detail\shared_count.hpp(410,9): error C3861: 'r': identificador não encontrado
+C:\Program Files\boost_1_59_0\boost\smart_ptr\detail\shared_count.hpp(410,9): message : Este diagnóstico ocorreu na função gerada pelo compilador 'boost::detail::shared_count::shared_count(void)'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(249,65): error C2039: ' auto_ptr': não é um membro de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(40): message : consulte a declaração de 'std'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(249,30): error C2065: 'auto_ptr': identificador não declarado
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(249,37): error C2974: 'boost::detail::sp_enable_if_auto_ptr': argumento de modelo inválido para 'T', tipo esperado
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(246): message : consulte a declaração de 'boost::detail::sp_enable_if_auto_ptr'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(249,37): error C2976: 'boost::detail::sp_enable_if_auto_ptr': poucos argumentos de modelo
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(246): message : consulte a declaração de 'boost::detail::sp_enable_if_auto_ptr'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(249,78): error C2988: declaração/definição de template irreconhecível
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(249,78): error C2143: erro de sintaxe: ';' ausente antes de ','
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(249,78): error C2059: erro de sintaxe: ','
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(250,1): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(250,1): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(448,31): error C2039: ' auto_ptr': não é um membro de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(40): message : consulte a declaração de 'std'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(765): message : consulte a referência à instanciação 'boost::shared_ptr<X>' do modelo da classe que está sendo compilada
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(448,5): error C2061: erro de sintaxe: identificador 'auto_ptr'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(461,22): error C2039: ' auto_ptr': não é um membro de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(40): message : consulte a declaração de 'std'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(461,5): error C2061: erro de sintaxe: identificador 'auto_ptr'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(461,5): error C2535: 'boost::shared_ptr<X>::shared_ptr(void)': função membro já definida ou declarada
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(448): message : consulte a declaração de 'boost::shared_ptr<X>::shared_ptr'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(538,34): error C2039: ' auto_ptr': não é um membro de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(40): message : consulte a declaração de 'std'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(538,5): error C2061: erro de sintaxe: identificador 'auto_ptr'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(539,1): error C2805: 'operator =' binário possui poucos parâmetros
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(547,34): error C2039: ' auto_ptr': não é um membro de 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(40): message : consulte a declaração de 'std'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(547,5): error C2061: erro de sintaxe: identificador 'auto_ptr'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(448,53): error C3861: 'r': identificador não encontrado
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(448,53): message : Este diagnóstico ocorreu na função gerada pelo compilador 'boost::shared_ptr<X>::shared_ptr(void)'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(452,19): error C3861: 'r': identificador não encontrado
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(452,19): message : Este diagnóstico ocorreu na função gerada pelo compilador 'boost::shared_ptr<X>::shared_ptr(void)'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(453,43): error C3861: 'r': identificador não encontrado
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(453,43): message : Este diagnóstico ocorreu na função gerada pelo compilador 'boost::shared_ptr<X>::shared_ptr(void)'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(461,45): error C3861: 'r': identificador não encontrado
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(461,45): message : Este diagnóstico ocorreu na função gerada pelo compilador 'boost::shared_ptr<X>::shared_ptr(void)'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(465,19): error C3861: 'r': identificador não encontrado
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(465,19): message : Este diagnóstico ocorreu na função gerada pelo compilador 'boost::shared_ptr<X>::shared_ptr(void)'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(466,43): error C3861: 'r': identificador não encontrado
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(466,43): message : Este diagnóstico ocorreu na função gerada pelo compilador 'boost::shared_ptr<X>::shared_ptr(void)'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(540,20): error C3861: 'r': identificador não encontrado
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(540,20): message : Este diagnóstico ocorreu na função gerada pelo compilador 'boost::shared_ptr<X> &boost::shared_ptr<X>::operator =(void)'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(549,33): error C2760: erro de sintaxe: token inesperado 'identificador', esperado 'especificador de tipo'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(549,33): message : Este diagnóstico ocorreu na função gerada pelo compilador 'boost::shared_ptr<X> &boost::shared_ptr<X>::operator =(void)'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(461,5): error C2535: 'boost::shared_ptr<volatile const void>::shared_ptr(void)': função membro já definida ou declarada
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(448): message : consulte a declaração de 'boost::shared_ptr<volatile const void>::shared_ptr'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(461,5): error C2535: 'boost::shared_ptr<boost::filesystem::filesystem_error::m_imp>::shared_ptr(void)': função membro já definida ou declarada
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(448): message : consulte a declaração de 'boost::shared_ptr<boost::filesystem::filesystem_error::m_imp>::shared_ptr'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(461,5): error C2535: 'boost::shared_ptr<boost::filesystem::detail::dir_itr_imp>::shared_ptr(void)': função membro já definida ou declarada
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(448): message : consulte a declaração de 'boost::shared_ptr<boost::filesystem::detail::dir_itr_imp>::shared_ptr'
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(461,5): error C2535: 'boost::shared_ptr<boost::filesystem::detail::recur_dir_itr_imp>::shared_ptr(void)': função membro já definida ou declarada
+C:\Program Files\boost_1_59_0\boost\smart_ptr\shared_ptr.hpp(448): message : consulte a declaração de 'boost::shared_ptr<boost::filesystem::detail::recur_dir_itr_imp>::shared_ptr'
+C:\Users\User\Desktop\Production\Academic\Artigo 3 - Thin Film\Dados\GIXRD-simulations-C++\main.cpp(47,19): warning C4018: '<': incompatibilidade de signed/unsigned
